@@ -1,6 +1,5 @@
 import Calendar from './components/Calendar/Calendar';
 import { TodoProvider } from './context/Todo';
-import './App.css'
 
 function App() {
 
