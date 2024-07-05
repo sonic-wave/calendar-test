@@ -1,0 +1,22 @@
+.calendar {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.calendar-handleBtn {
+    padding: 5px;
+    background-color: cornflowerblue;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.calendar-handleBtn:hover {
+    background-color: royalblue;
+}

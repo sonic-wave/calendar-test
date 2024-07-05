@@ -1,0 +1,18 @@
+.day {
+    width: calc(100% / 7);
+    height: 100px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.day-off {
+    background-color: #ffc99e;
+}
+
+.day:hover {
+    background-color: cornflowerblue;
+    color: #fff;
+}

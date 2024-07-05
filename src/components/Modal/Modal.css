@@ -1,0 +1,84 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+    color: #000;
+}
+
+.modal-content {
+    position: relative;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.modal-closeBtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.modal-input {
+    padding: 5px;
+    width: 276px;
+}
+
+.modal-addBtn,
+.modal-list-deleteBtn {
+    padding: 5px;
+    background-color: cornflowerblue;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.modal-addBtn:hover,
+.modal-list-deleteBtn:hover {
+    background-color: royalblue;
+}
+
+
+.modal-addBtn {
+    width: 290px;
+}
+
+.modal-list-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-left: 0;
+}
+
+.modal-list-component {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    width: 290px;
+    word-break: break-all;
+    box-sizing: border-box;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.modal-list-text {
+    cursor: pointer;
+}
+
+.completed .modal-list-text {
+    text-decoration: line-through;
+}
